@@ -20,3 +20,4 @@ console.log("변수 d의 데이터 타입은? "+ typeof(d));
 
 var e = "동재 하이";
 console.log(e);
+console.log(경한이 돼지)

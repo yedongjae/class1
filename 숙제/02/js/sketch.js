@@ -41,3 +41,53 @@
 // (for 문 부분)
 
 //다음시간에는 반복문 과 함수
+
+
+숙제
+
+var A = 3;
+var B = 7;
+var C = 6;
+var D = "100";
+var E = "120";
+var F = "hello louis";
+var G = boolean은 어떻게 설정하는지 잘 몰겠어ㅠ
+
+
+
+console.log(3+7);
+console.log(3+6);
+console.log(6+"100");
+console.log("hello louis" + 3);
+console.log("hello louis" + "100");
+console.log(D);
+console.log(F);
+console.log(E+F);
+
+
+console.log(A+B);
+console.log(A++);
+console.log(A-B);
+console.log(A--);
+console.log(A*B);
+console.log(A/B);
+console.log(A=+B);
+console.log(A=-B);
+console.log(A=*B);
+console.log(A=/B);
+
+
+const why = 5;
+const scene = "simple";
+
+if(situation =="covid19-X"){
+    console.log("Newyouk 갈래");
+}
+else if(place == "covid19"){
+    console.log("다음에 가야지ㅠㅠ");
+}
+else{
+    console.log("나중에 꼭 가보고 싶어");
+
+    else if의 개념을 한번만 다시 알려줘ㅠㅠ
+}

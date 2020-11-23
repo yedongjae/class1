@@ -65,3 +65,5 @@ else if(place == "north korea"){
 else{
     console.log("나중에 회먹으러 갈께~");
 }
+
+

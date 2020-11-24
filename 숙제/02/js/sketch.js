@@ -14,8 +14,7 @@
 // / : 나누기
 // A =+ B : A는 앞으로 A + B
 // A =- B : A는 앞으로 A - B
-// A =* B : A는 앞으로 A * B
-// A =/ B : A는 앞으로 A / B
+
 
 // 3. 만든 변수와 위의 연산자를 모두 사용해서 연산을 하세요. (숫자, 문자열 포함)
 // console.log 사용해서 표시할것.
@@ -43,7 +42,7 @@
 //다음시간에는 반복문 과 함수
 
 
-숙제
+// 숙제
 
 var A = 3;
 var B = 7;
@@ -51,7 +50,8 @@ var C = 6;
 var D = "100";
 var E = "120";
 var F = "hello louis";
-var G = boolean은 어떻게 설정하는지 잘 몰겠어ㅠ
+var G = true;
+// boolean은 어떻게 설정하는지 잘 몰겠어ㅠ
 
 
 
@@ -73,21 +73,31 @@ console.log(A*B);
 console.log(A/B);
 console.log(A=+B);
 console.log(A=-B);
-console.log(A=*B);
-console.log(A=/B);
+
 
 
 const why = 5;
 const scene = "simple";
 
-if(situation =="covid19-X"){
+
+var situation = "covid20";
+if(situation == "covid19-X"){
     console.log("Newyork 갈래");
 }
-else if(place == "covid19"){
+else if(situation == "covid19"){
     console.log("다음에 가야지ㅠㅠ");
 }
 else{
     console.log("나중에 꼭 가보고 싶어");
-
-    else if의 개념을 한번만 다시 알려줘ㅠㅠ
 }
+
+var rand1 = 3; 
+var rand2 = 5;
+var bool = rand1<rand2;
+var daeyoung;
+daeyoung=1;
+daeyoung=4; 
+console.log(daeyoung);
+console.log(bool);
+bool = situation=="covid19-X";
+console.log(bool);

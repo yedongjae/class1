@@ -81,7 +81,7 @@ const why = 5;
 const scene = "simple";
 
 if(situation =="covid19-X"){
-    console.log("Newyouk 갈래");
+    console.log("Newyork 갈래");
 }
 else if(place == "covid19"){
     console.log("다음에 가야지ㅠㅠ");

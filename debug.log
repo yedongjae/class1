@@ -1,2 +1,3 @@
 [1120/002224.349:ERROR:settings.cc(325)] Settings version is not 1
 [1120/003224.402:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)
+[1124/103542.876:ERROR:directory_reader_win.cc(43)] FindFirstFile: 지정된 경로를 찾을 수 없습니다. (0x3)

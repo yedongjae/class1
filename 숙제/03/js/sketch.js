@@ -18,3 +18,20 @@ console.log(a);
 
 // 1부터 10까지의 수를 더한 값을 구하시오
 // 힌트: 코딩은 위에서 아래로 흐른다, 변수는 재정의가 가능하다
+var vd=[1,2,3,4,5,6,7,8,9,10];
+// vd[0]+vd[1]+vd[2]...
+var add=0;
+
+for(var i=0;i<10;i++){
+    // console.log(i);
+    // console.log(vd[i]);
+    add+=vd[i];
+    //add = add+vd[0] =1 >> add = 1 + vd[1]>> ..
+    console.log(add);
+}
+
+var s ="dongjae hi";
+var p;
+p = s.split(" ");
+console.log(s.split(" "));//"dongjae", "hi"
+console.log(p);

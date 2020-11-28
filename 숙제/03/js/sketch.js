@@ -41,5 +41,5 @@ var dongjae = Math.floor(Math.random() * 10);
 dongjae = Math.ceil(10.5);// floor()
 console.log(dongjae); 
 
-dongjae = Math.random() * 10
+dongjae = Math.random() * 10;
 console.log(dongjae); 

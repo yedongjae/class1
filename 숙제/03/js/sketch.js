@@ -35,3 +35,11 @@ var p;
 p = s.split(" ");
 console.log(s.split(" "));//"dongjae", "hi"
 console.log(p);
+
+var dongjae = Math.floor(Math.random() * 10);
+//Math.floor == 정수만들기 0.9,0.3 =>> 0 , Math.ceil == 정수만들기 올림
+dongjae = Math.ceil(10.5);// floor()
+console.log(dongjae); 
+
+dongjae = Math.random() * 10
+console.log(dongjae); 

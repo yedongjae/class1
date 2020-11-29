@@ -32,6 +32,3 @@ for( var i=0; i<2;i++){
 }
 
 
-//주사위 
-var dice=Math.ceil(Math.random()*6);
-console.log("주사위 눈의 갯수 ", dice);

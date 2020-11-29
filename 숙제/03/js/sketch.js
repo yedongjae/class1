@@ -18,7 +18,6 @@ console.log(a);
 
 // 1부터 10까지의 수를 더한 값을 구하시오
 // 힌트: 코딩은 위에서 아래로 흐른다, 변수는 재정의가 가능하다
-<<<<<<< Updated upstream
 var vd=[1,2,3,4,5,6,7,8,9,10];
 // vd[0]+vd[1]+vd[2]...
 var add=0;
@@ -44,7 +43,6 @@ console.log(dongjae);
 
 dongjae = Math.random() * 10;
 console.log(dongjae); 
-=======
 
 
 // 1. 조건문 가지고 놀기
@@ -152,4 +150,3 @@ for (i=0; i<10; i++){
     t=num+vd; // t는 num과 vd를 더한 값이다.
     console.log(t);
 }
->>>>>>> Stashed changes

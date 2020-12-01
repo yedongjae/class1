@@ -32,8 +32,6 @@ for( var i=0; i<2;i++){
 }
 
 
-<<<<<<< Updated upstream
-=======
 //주사위 
 var dice=Math.ceil(Math.random()*6);
 console.log("주사위 눈의 갯수 ", dice);
@@ -63,4 +61,4 @@ for( var i=0; i<2;i++){
     if(coin==dongjae){
         console.log("내가 이김 후후훗");
     }
->>>>>>> Stashed changes
+}

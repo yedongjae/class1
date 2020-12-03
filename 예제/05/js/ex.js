@@ -17,37 +17,35 @@ for(var i=0;i<23;i++){
         visitor=friend[0];//vistor변수의 값은 friend 변수 배열중 0번째값인 "영미"
     }
     else if(rand==1){
-        visitor=friend[1];
+        visitor=friend[1];//visitor변수의 값은 friend 변수 배열중 1번째값인 "슬기"
     }
     else if(rand==2){
-        visitor=friend[2];
+        visitor=friend[2];//visitor변수의 값은 friend 변수 배열중 2번째값인 "아이린"
     }
     else if(rand==3){
-        visitor=friend[3];
+        visitor=friend[3];//visitor변수의 값은 friend 변수 배열중 3번째값인 "혜진"
     }
     else if(rand==4){
-        visitor=friend[4];
+        visitor=friend[4];//visitor변수의 값은 friend 변수 배열중 4번째값인 "철수"**** if 아닌가?
     }
     else if(rand==5){
-        visitor=friend[5];
+        visitor=friend[5];//visitor변수의 값은 friend 변수 배열중 5번째값인 "준원"
     }
     else{
-        visitor=friend[6];
-    }
-
-
-    if(visitor=="철수"){
-        all();
-    }
-    else if(visitor=="영미"){
-        all();
-    }
-    else{
-        console.log("연필어겅");
+        visitor=friend[6];//visitor변수의 값은 friend 변수 배열중 6번째값인 "?"****
     }
     
+    if(visitor=="철수"){
+        all();//visitor변수의 값은 friend 변수 배열중  "철수"라면
+    }
+    else if(visitor=="영미"){
+        all();//if가 아닌데 만약에 visitor변수의 값은 friend 변수 배열중 "영미"이라면
+    }
+    else{
+        console.log("연필던져"); //둘다 아니면 연필던져
+    }
 }
-console.log("앞: ", resultf, "뒤: ", resultb);
+console.log("앞: ", resultf, "뒤: ", resultb);//
 
 function all(){
     toss();//던지고
@@ -55,33 +53,33 @@ function all(){
 }
 
 function toss(){
-    d=Math.random()*2;
+    d=Math.random()*2;//0,1,2 중 랜덤
     if(d>1){
-        sign="front";
+        sign="front";//앞이 나오면
     }
     else if(d<1){
-        sign="back";
+        sign="back";//뒤가 나오면
     }
     else{
-        sign="standing";
+        sign="standing";//아니면 세워진거라면
     }
 }
 
 function resultCheck(){
     if(sign=="front"){
-        resultf++;
+        resultf++;//앞이 나오면 ++
     }
     else if(sign=="back"){
-        resultb++;
+        resultb++;//뒤가 나오면 ++
     }
 }
 
 function real(a){
     if(a=="front"){
-        resultf++;
+        resultf++;//앞이 나오면 ++
     }
     else if(a=="back"){
-        resultb++;
+        resultb++;//뒤가 나오면 ++
     }
 }
 

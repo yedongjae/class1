@@ -42,7 +42,7 @@ for(var i=0;i<23;i++){
         all();//if가 아닌데 만약에 visitor변수의 값은 friend 변수 배열중 "영미"이라면
     }
     else{
-        console.log("연필던져"); //둘다 아니면 연필던져
+        console.log("연필던져,반복된 횟수는 방문자가 철수나 영미가 아니었던 횟수"); //둘다 아니면 연필던져
     }
 }
 console.log("앞: ", resultf, "뒤: ", resultb);//

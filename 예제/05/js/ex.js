@@ -26,15 +26,15 @@ for(var i=0;i<23;i++){
         visitor=friend[3];//visitor변수의 값은 friend 변수 배열중 3번째값인 "혜진"
     }
     else if(rand==4){
-        visitor=friend[4];//visitor변수의 값은 friend 변수 배열중 4번째값인 "철수"**** if 아닌가?
+        visitor=friend[4];//visitor변수의 값은 friend 변수 배열중 4번째값인 "철수"**** 
     }
     else if(rand==5){
         visitor=friend[5];//visitor변수의 값은 friend 변수 배열중 5번째값인 "준원"
     }
     else{
-        visitor=friend[6];//visitor변수의 값은 friend 변수 배열중 6번째값인 "?"****
+        visitor=friend[6];//visitor변수의 값은 friend 변수 배열중 6번째값은 없다.
     }
-    
+    //근데 형 여기에서 동전을 던진다는것을 설정안한거같아
     if(visitor=="철수"){
         all();//visitor변수의 값은 friend 변수 배열중  "철수"라면
     }
@@ -83,4 +83,7 @@ function real(a){
     }
 }
 
-real(sign);
+real(sign);// sign은 이거다!
+
+
+

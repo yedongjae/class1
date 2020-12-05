@@ -72,6 +72,7 @@ function resultCheck(){
     else if(sign=="back"){
         resultb++;//뒤가 나오면 ++
     }
+
 }
 
 function real(a){
@@ -83,7 +84,7 @@ function real(a){
     }
 }
 
-real(sign);// sign은 이거다!
+real(sign);// real 함수에 sign 값을 대입한다. 그래서 sign 값이 front 나 back 이면 resultf 나 resultb에 1씩 더해진다!
 
 
 

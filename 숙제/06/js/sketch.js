@@ -5,11 +5,16 @@
 // console.log(Math.max(a,f,e,456,789));
 
 var f=0.5678987;
-var e=f.toFixed(2);
+var e=f.toFixed(3);
 console.log(e);
 
 var e=f.toFixed(4);
 console.log(e);
+
+var a = 12345;
+var b = a.toString();
+console.log(a);
+
 
 var f= e.toString();
 console.log(f);
@@ -52,13 +57,14 @@ var a = ('1', '5', '7', '-10');
 console.log(Math.max('1', '5', '7', '-10'));
 console.log(Math.min('1', '5', '7', '-10'));
 
+// 어떻게 계산해서 15번째인지..
 var a = "hello, this is dongjae";
 var b = a.indexOf("dongjae");
 console.log(b);
 
 // innerHTML() 찾아봤으나 이해가 안가요ㅠㅠ
 
-//Array는 했는데도 잘 모르겠어
+//Array는 했는데도 잘 모르겠어 아리까리한 느낌
 
 var a = new Array();
 
@@ -70,14 +76,7 @@ for(var i = 0; i< 3; i++) {
     console.log(a[i]);
 }
 
-
-
-
-
-
-
-
-
+// console.log(Math.max(a,f,e,456,789)); 이것 도통 뭔이야긴지 몰겟어ㅠ
 
 
 
@@ -96,3 +95,4 @@ ex.innerHTML="hello world";
 //2. 그 문단 속에서 apple 을 찾아서 orange로 바꾸세요. (단어 사이엔 " "가있음.)
 //3. 바꾼후 그 문단을 HTML 의 id: example 인곳에 대입하여 나타내세요. 
 // hint: indexOf() 
+

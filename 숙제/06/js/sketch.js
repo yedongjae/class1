@@ -15,9 +15,11 @@ var a = 12345;
 var b = a.toString();
 console.log(a);
 
-
 var f= e.toString();
 console.log(f);
+
+
+
 
 var a = 'abcd';
 var b = 'abcd'.length
@@ -41,13 +43,19 @@ console.log(a.toLowerCase());
 var a = 'abcd'
 console.log(a.toUpperCase());
 
-//
-var a = ['a','b'];
+//4개가 있다.4번째가 아니라
+var a = ['a','b','d'];
 console.log(a.push('c'));
-
+console.log(a);
 //
 var a = ['a','b','c'];
 console.log(a.pop('c'));
+console.log(a);
+var z = ['동재', '경한'];
+z.push('대영');
+console.log(z);
+z.pop(0);
+console.log(z);
 
 var a = (4.6);
 console.log(Math.ceil(a));
@@ -57,7 +65,7 @@ var a = ('1', '5', '7', '-10');
 console.log(Math.max('1', '5', '7', '-10'));
 console.log(Math.min('1', '5', '7', '-10'));
 
-// 어떻게 계산해서 15번째인지..
+
 var a = "hello, this is dongjae";
 var b = a.indexOf("dongjae");
 console.log(b);

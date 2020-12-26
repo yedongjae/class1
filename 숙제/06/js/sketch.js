@@ -5,28 +5,25 @@
 // console.log(Math.max(a,f,e,456,789));
 
 var f=0.5678987;
-var e=f.toFixed(3);
+ e=f.toFixed(3);
 console.log(e);
 
 var e=f.toFixed(4);
 console.log(e);
 
 var a = 12345;
-var b = a.toString();
+b = a.toString();
 console.log(a);
 
 var f= e.toString();
 console.log(f);
 
-
-
-
-var a = 'abcd';
-var b = 'abcd'.length
+var a = 'a';
+var b = ''.length
 console.log(b);
 
-var a = "Hello World!";
-var b = a.valueOf();
+var a = "써지리뉴";
+b = a.valueOf();
 console.log(b);
 
 var a='꾸에에에에엑';
@@ -129,3 +126,50 @@ do{
 }while (score>0);
 console.log(newsentence);
 
+
+
+
+
+//1. apple 이라는 단어가 5번이상 나오는 문단을 쓰세요. 
+//2. 그 문단 속에서 apple 을 찾아서 orange로 바꾸세요. (단어 사이엔 " "가있음.)
+//3. 바꾼후 그 문단을 HTML 의 id: example 인곳에 대입하여 나타내세요. 
+// hint: replace()
+
+
+var sentence ="Apple is a fruit. Apple is tasty. I like apple. Dongjae like apple too. Kyoung Han is a bitch ass and doesn't like an apple.";
+var newsentence= sentence.replace("apple", "orange");
+console.log(newsentence);
+//problem : 
+// 1. only 1 is changed
+// 2. capitalized apples are not changed
+newsentence=sentence.toLowerCase();
+// console.log(newsentence);
+
+// newsentence= newsentence.replace("apple", "orange");
+// console.log(newsentence);
+// console.log(newsentence.search("apple"));
+
+var score= newsentence.search("apple");
+
+do{
+    console.log(score);
+    newsentence= newsentence.replace("apple", "orange");
+    score= newsentence.search("apple");
+    
+}while (score>0);
+console.log(newsentence);
+
+
+var sentence = 'Orange is yellow. Orange is sour. I like orange. Kyunghan eats a lot of orange and he loves orange.';
+var newsentence = sentence.replace('orange', 'Orange');
+console.log(newsentence);
+newsentence=sentence.toLowerCase();
+var score = newsentence.search('orange');
+
+do{
+    console.log(score);
+    newsentence= newsentence.replace('orange','Orange');
+    score= newsentence.search('orange');
+
+}while (score>0);
+console.log(newsentence);

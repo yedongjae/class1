@@ -160,7 +160,7 @@ do{
 console.log(newsentence);
 
 
-var sentence = 'Orange is yellow. Orange is sour. I like orange. Kyunghan eats a lot of orange and he loves orange.';
+var sentence = 'Orange is yellow. Orange is sour. I like orange. Kyunghan eats a lot of oranges and he loves oranges.';
 var newsentence = sentence.replace('orange', 'Orange');
 console.log(newsentence);
 newsentence=sentence.toLowerCase();
@@ -173,3 +173,71 @@ do{
 
 }while (score>0);
 console.log(newsentence);
+
+
+var x ="Watermelon is tasty. Watermelon is great. I like watermelon."
+//수박이 아니라 오렌지로, 그리고 문법에 맞도록...
+
+var w = x.toUpperCase();
+console.log(x);
+console.log(w);
+console.log("동재 바보");
+
+// var n= x.split(" ");
+// console.log(n);
+
+// for(i=0;i<9;i++){
+//     if(n[i]=="Watermelon"){
+//         n[i]="Orange";
+//     }
+//     if(n[i]=="watermelon."){
+//         n[i]="oranges."
+//     }
+// }
+// console.log(n);
+
+var n= x.split(". ");
+console.log(n);
+console.log(n[0]);
+
+
+var i = n[0].toLowerCase();
+var j = i.replace("watermelon","orange");
+j=j.split("");
+j[0]=j[0].toUpperCase();
+
+console.log(j);
+
+var first="";
+for(i=0; i<j.length;i++){
+    first+=j[i];
+    console.log("first+j[",i,"]");
+}
+console.log(first);
+
+function t(sample){
+    var hahaha="";
+    sample=sample.toLowerCase();
+    //sample은 샘플이 소문자가 된상황 -line204
+    sample=sample.replace("watermelon","orange");
+    //샘플은 샘플안에 있던 수박이 오렌지로 변환된상황 -line205
+    //수박에서 오렌지로는 변경됨!!
+    sample=sample.split("");
+    //샘플이 글자단위로 쪼개져서 배열의 형태로 있는 상황 -line206
+    sample[0]=sample[0].toUpperCase();
+    //샘플의 0번째 값이 대문자로 바뀌어진 상황 -line207
+    //여기서 필요한건! 이 부속품들을 다 붙여야하는 상황
+    for(i=0;i<sample.length;i++){
+        hahaha+=sample[i];
+    }
+    return(hahaha);
+}
+console.log(t(n[0]));
+var final={};
+var final1="";
+final1+=t(n[0]);
+console.log(t(n[0]));
+console.log(t(n[1]));
+console.log(t(n[2]));
+
+console.log(t(n[0])+". "+t(n[1])+". "+t(n[2]));
